@@ -21,6 +21,8 @@ local _on_attach = function(client, bufnr)
 end
 
 require("mason").setup()
+-- debug
+
 require("mason-lspconfig").setup({
   ensure_installed = lsps,
   automatic_installation = true,

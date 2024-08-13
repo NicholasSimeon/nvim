@@ -1,9 +1,9 @@
 return {
-  "folke/tokyonight.nvim",
+  "frenzyexists/aquarium-vim",
   priority = 1000,
   lazy = false,
   config = function(plugin)
-    require("tokyonight").setup()
-    vim.cmd([[colorscheme tokyonight-night]])
+    --require("aquarium").setup()
+    vim.cmd([[colorscheme aquarium]])
   end,
 }

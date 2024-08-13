@@ -8,6 +8,7 @@ return {
       sources = {
         null.builtins.diagnostics.cppcheck,
         null.builtins.formatting.clang_format,
+        null.builtins.formatting.cmake_format,
         null.builtins.formatting.stylua,
         null.builtins.completion.spell,
       },
